@@ -1,0 +1,11 @@
+apiVersion: V1
+kind: POD
+metadata: 
+   name: sample
+   labels:
+    app: sample
+    env: dev
+specs:
+  containers: 
+   - name: nginx_container
+     image: nginx:latest
